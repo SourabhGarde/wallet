@@ -4,7 +4,7 @@ public class Users {
     private int userId;
     private String userName;
     private String password;
-    private long Balance;
+    private long Balance; // initially zero
 
     public Users(int userId, String userName, String password, long Balance) {
         this.userId = userId;
